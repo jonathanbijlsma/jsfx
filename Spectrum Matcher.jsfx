@@ -5,13 +5,13 @@ in_pin:Right
 out_pin:Left
 out_pin:Right
 
-slider1:30<10,50,10>-bands
+slider1:30<10,63,10>-bands
 slider2:4<1,10,0.1>-peak bias
 slider3:40<10,200>-smoothing period (ms)
 slider4:1<0.5,1.5>-sharpness (Q)
 slider5:6<-12,20>-hard limit (dB)
 slider6:correction_gain_db=0<-24,12,0.1>-correction gain (dB)
-slider7:correction_resolution=50<1,50,1>-correction resolution
+slider7:correction_resolution=50<1,63,1>-correction resolution
 slider8:correction_strength=1<-1,1>-correction strength
 slider9:correction_range_low=20<10,18000,1>-correction range low (Hz)
 slider10:correction_range_high=18000<20,20000,1>-correction range high (Hz)
